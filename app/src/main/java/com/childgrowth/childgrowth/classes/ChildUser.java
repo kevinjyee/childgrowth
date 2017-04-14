@@ -1,4 +1,4 @@
-package com.childgrowth.childgrowth;
+package com.childgrowth.childgrowth.classes;
 
 /**
  * Created by Kevin on 4/14/2017.
@@ -23,6 +23,8 @@ import java.util.prefs.Preferences;
 
 public class ChildUser implements Serializable{
 
+
+    //private Picture pictureURL;
     private int id;
     private Date birthday;
     private String name;
@@ -44,6 +46,9 @@ public class ChildUser implements Serializable{
     public ChildUser(int userId, String name, String birthday, String gender,double weight, double height){
         this.id = userId;
         this.name = name;
+        this.gender=gender;
+        this.weight=weight;
+        this.height=height;
         DateFormat format = new SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH);
         Date date = null;
         try {
@@ -52,6 +57,7 @@ public class ChildUser implements Serializable{
             e.printStackTrace();
         }
     }
+
 
 
 
