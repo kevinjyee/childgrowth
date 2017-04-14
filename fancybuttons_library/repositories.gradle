@@ -1,0 +1,6 @@
+repositories {
+    maven {
+        url  "http://dl.bintray.com/medyo/maven" 
+    }
+}
+        
