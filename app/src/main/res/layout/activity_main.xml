@@ -1,80 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/frontscreen">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark">
 
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:src="@drawable/frontscreenwtitle"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        />
+
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sprettadarklogo"/>
 
     <TextView
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:id="@+id/textView1"
         android:layout_height="wrap_content"
         android:text=" " ></TextView>
     <Button
 
-        android:layout_marginTop="60dip"
-        android:layout_marginLeft="100dip"
+        android:layout_marginTop="100dip"
         android:layout_centerHorizontal="true"
         android:text=""
         android:layout_below="@id/textView1"
         android:id="@+id/button1"
         android:layout_width="300dp"
         android:layout_height="75dp"
-        android:background="@android:color/transparent"
+        android:background="@drawable/selector_for_profile_button"
         ></Button>
 
         <Button
 
-        android:layout_marginTop="160dip"
-        android:layout_marginLeft="100dip"
+        android:layout_marginTop="5dip"
+
         android:layout_centerHorizontal="true"
         android:text=""
-            android:layout_below="@id/textView1"
+            android:layout_below="@id/button1"
             android:id="@+id/button2"
             android:layout_width="300dp"
             android:layout_height="75dp"
-            android:background="@android:color/transparent"
+            android:background="@drawable/selector_for_info_button"
         ></Button>
 
 
 
         <Button
-        android:layout_marginTop="260dip"
-        android:layout_marginLeft="100dip"
+        android:layout_marginTop="5dip"
+
         android:layout_centerHorizontal="true"
         android:text=""
-            android:layout_below="@id/textView1"
+            android:layout_below="@id/button2"
             android:id="@+id/button3"
             android:layout_width="300dp"
             android:layout_height="75dp"
-            android:background="@android:color/transparent"
+            android:background="@drawable/selector_for_history_button"
         ></Button>
 
 
         <Button
-            android:layout_marginTop="340dip"
-            android:layout_marginLeft="100dip"
+            android:layout_marginTop="5dip"
+
             android:layout_centerHorizontal="true"
             android:text=""
-            android:layout_below="@id/textView1"
+            android:layout_below="@id/button3"
             android:id="@+id/button4"
             android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:background="@android:color/transparent"
+            android:layout_height="75dp"
+            android:background="@drawable/selector_for_settings_button"
             ></Button>
 
 
