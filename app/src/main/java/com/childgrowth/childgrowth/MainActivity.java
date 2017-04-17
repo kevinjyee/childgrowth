@@ -36,6 +36,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         infoButton = (Button) findViewById(R.id.button2);
        infoButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Intent infoIntent = new Intent(MainActivity.this,InfoActivity.class);
+                MainActivity.this.startActivity(infoIntent);
 
             }
         });
@@ -43,7 +45,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         historybutton = (Button) findViewById(R.id.button3);
         historybutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
+                Intent historyIntent = new Intent(MainActivity.this,HistoryActivity.class);
+                MainActivity.this.startActivity(historyIntent);
             }
         });
 
