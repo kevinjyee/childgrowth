@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "978206220388",
+    "firebase_url": "https://spretta-7d36f.firebaseio.com",
+    "project_id": "spretta-7d36f",
+    "storage_bucket": "spretta-7d36f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978206220388:android:95c95e118d1f60c4",
+        "android_client_info": {
+          "package_name": "com.childgrowth.childgrowth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978206220388-tnt03mui480gls0pthu6ejv0j4me19ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB95GVQEvLfgLLURzh1HRnOaDBbfYI78sY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
