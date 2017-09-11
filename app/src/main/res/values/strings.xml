@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Child Growth</string>
+    <string name="parents_information">PARENTS INFORMATION</string>
+    <string name="father_s_name">Father\'s Name:</string>
+    <string name="father_s_ethnicity">Father\'s Ethnicity:</string>
+    <string name="father_s_height">Father\'s Height:</string>
+    <string name="account_information">ACCOUNT INFORMATION</string>
+    <string name="primary_email">Primary Email:</string>
+    <string name="primary_phone">Primary Phone #:</string>
+    <string name="password">Password:</string>
+    <string name="retype_password">Retype Password:</string>
+    <string name="mother_s_name">Mother\'s Name:</string>
+    <string name="mother_s_ethnicity">Mother\'s Ethnicity:</string>
+    <string name="mother_s_height">Mother\'s Height:</string>
+    <string name="ft">Ft</string>
+    <string name="in">In</string>
 </resources>

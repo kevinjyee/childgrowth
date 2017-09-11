@@ -25,36 +25,11 @@ import com.childgrowth.childgrowth.utilities.CustomListAdapter;
 
 public class ProfileActivity extends Activity{
 
-    ListView list;
-    String[] itemname ={
-            "Kevin",
-            "Theresa"
-    };
 
-    Integer[] imgid={
-            R.drawable.baby_sample1,
-            R.drawable.baby_sample2,
-
-    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        CustomListAdapter adapter=new CustomListAdapter(this, itemname, imgid);
-        list=(ListView)findViewById(R.id.android_list);
-        list.setAdapter(adapter);
-
-        list.setOnItemClickListener(new OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                // TODO Auto-generated method stub
-                String Slecteditem= itemname[+position];
-                Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
-
-            }
-        });
     }
 }
